@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assignment1stylesheet.css">
+  <meta charset="utf-8">
+  <title>Assignment 1</title>
+</head>
+<body>
+
+	 <form id="search-form">
+	 	<div class="form-group row" style="padding: 20px">
+				<div class="form-group row">
+				<label for="submit-id" class="col-sm-4 col-form-label text-sm-right"> <button id="search-button" type="submit" class="btn btn-primary">Search SubReddits</button></label>		
+		        </div>
+				<div class="col-sm-9" style="padding-top: 5px">
+					<input type="text" class="col-sm-3 form-control" id="subreddit-id" name="subreddit">
+				</div>		
+		</div>	
+	 </form>
+	 <div id='loading-spinner'></div>
+	 <div id='results'></div>	
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="assignment1javascript.js"></script>
+
+</body>
+</html>
+
